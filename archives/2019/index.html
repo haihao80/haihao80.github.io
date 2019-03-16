@@ -99,12 +99,12 @@
 
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Nicex.top">
+<meta property="og:title" content="Nicec.top">
 <meta property="og:url" content="http://nicec.top/archives/2019/index.html">
-<meta property="og:site_name" content="Nicex.top">
+<meta property="og:site_name" content="Nicec.top">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nicex.top">
+<meta name="twitter:title" content="Nicec.top">
 
 
 
@@ -121,7 +121,7 @@
   };
 </script>
 
-  <title>归档 | Nicex.top</title>
+  <title>归档 | Nicec.top</title>
   
 
 
@@ -192,7 +192,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Nicex.top</span>
+        <span class="site-title">Nicec.top</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -230,6 +230,40 @@
     
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -279,6 +313,12 @@
             
 
     
+    
+      
+      
+    
+      
+      
     
       
       
@@ -391,6 +431,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.JPG" alt="xutao">
+            
               <p class="site-author-name" itemprop="name">xutao</p>
               <div class="site-description motion-element" itemprop="description"></div>
           </div>
@@ -408,6 +450,23 @@
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
               
 
               
@@ -428,7 +487,7 @@
           
             
           
-          <div>tttt</div>
+          
 
         </div>
       </div>
@@ -437,8 +496,9 @@
 
       
 
-    </div>
     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=22822577&auto=1&height=66"></iframe>
+    </div>
+
   </aside>
   
 
@@ -590,6 +650,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'yklWu9RK4XxTjTdP7W4rqGEz-gzGzoHsz',
+    appKey: 'fd44mTMVeK2jTf5Fg1shDIor',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
 
